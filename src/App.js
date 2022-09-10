@@ -1,8 +1,10 @@
-import logo from "./logo.svg";
-import "./App.css";
+import "./App.scss";
+import LoadingScreen from "./pages/LoadingScreen";
 
 function App() {
-  return <div></div>;
+  return <>
+    <LoadingScreen />
+  </>;
 }
 
 export default App;
