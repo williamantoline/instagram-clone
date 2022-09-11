@@ -12,7 +12,7 @@ export default function Header(props) {
           <p className="header-text-logo">Instagram</p>
         </div>
         <div className="header-right">
-          <Navbar />
+          <Navbar location={props.location} />
         </div>
       </div>
     </div>

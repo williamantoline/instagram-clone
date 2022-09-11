@@ -12,7 +12,6 @@ import HomeSuggestionContainer from "components/HomeSuggestionContainer";
 export default function Home(props) {
   return (
     <>
-      <Header />
       <Container
         className="mt-28 mobile-mt-0 mobile-full"
         display="flex"
