@@ -1,12 +1,21 @@
 .home-suggestion-container {
   margin-top: 22px;
   width: 100%;
-  //   background-color: rebeccapurple;
 
   .home-suggestion-my-profile {
     width: 100%;
-    background-color: cadetblue;
     display: flex;
     align-items: center;
+  }
+
+  .home-suggestion-divider {
+    padding: 0 6px;
+    box-sizing: border-box;
+  }
+
+  .home-suggestion-links {
+    .links {
+      word-wrap: break-word;
+    }
   }
 }

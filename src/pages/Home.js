@@ -39,7 +39,7 @@ export default function Home(props) {
           <HomePostContainer></HomePostContainer>
         </Container>
         <Container className="mobile-view-none" maxWidth={328}>
-          <HomeSuggestionContainer></HomeSuggestionContainer>
+          <HomeSuggestionContainer />
         </Container>
       </Container>
     </>

@@ -8,12 +8,12 @@ export default function ProfileBadge(props) {
   const classNames = props.className ? props.className.split(" ") : [];
   classNames.push("");
 
+  if (props.active) classNames.push("profile-badge-active");
+  if (props.inactive) classNames.push("profile-badge-inactive");
+
   return (
     <div
-      className={
-        classNames.join(" ") +
-        ` profile-badge profile-badge-active pb-${props.size ?? 5}`
-      }
+      className={classNames.join(" ") + ` profile-badge pb-${props.size ?? 5}`}
     >
       <div className="story-frame">
         <div className="divider">

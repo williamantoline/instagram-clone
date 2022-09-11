@@ -13,8 +13,8 @@ export default function Text(props) {
   if (props.align) styles.textAlign = props.align;
 
   return (
-    <p className={classNames.join(" ")} style={styles}>
+    <span className={classNames.join(" ")} style={styles}>
       {props.children}
-    </p>
+    </span>
   );
 }
