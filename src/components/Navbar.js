@@ -15,7 +15,7 @@ import ic_messenger from "../assets/icons/ic_messenger.svg";
 import ic_messenger_filled from "../assets/icons/ic_messenger_filled.svg";
 import ic_search from "../assets/icons/ic_search.svg";
 import ic_search_filled from "../assets/icons/ic_search_filled.svg";
-import profile from "../assets/icons/profile.svg";
+// import profile from "../assets/icons/profile.svg";
 
 export default function Navbar(props) {
   console.log(props.location);

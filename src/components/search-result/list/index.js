@@ -7,7 +7,7 @@ import Row from "components/Row";
 import Column from "components/Column";
 import ProfileBadge from "elements/ProfileBadge";
 import Icon from "elements/Icon";
-import ic_close from "../../../assets/icons/ic_close.svg";
+import ic_close from "../../../assets/icons/ic_close.svg";  
 
 export default function SearchResultList() {
   return (
